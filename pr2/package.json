@@ -1,0 +1,13 @@
+{
+  "name": "pr2",
+  "version": "1.0.0",
+  "description": "Practice 2: Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
+
