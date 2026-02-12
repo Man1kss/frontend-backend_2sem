@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #111827;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.product-card {
+  max-width: 320px;
+  padding: 16px;
+  background-color: #1f2933;
+  color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.product-card--featured {
+  border: 2px solid #3498db;
+}
+.product-card__image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+.product-card__title {
+  font-size: 20px;
+  margin: 0 0 8px 0;
+}
+.product-card__description {
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0 0 12px 0;
+  opacity: 0.9;
+}
+.product-card__button {
+  padding: 10px 16px;
+  background-color: #3498db;
+  color: #ffffff;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  background-color: #3498db;
+}
+.product-card__button:hover {
+  background-color: rgb(34.6744769874, 130.9924686192, 195.5255230126);
+  transform: translateY(-1px);
+}
+.product-card__button:active {
+  background-color: rgb(29.2970711297, 110.6778242678, 165.2029288703);
+  transform: translateY(0);
+}
+
+/*# sourceMappingURL=styles.css.map */
