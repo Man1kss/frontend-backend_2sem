@@ -71,12 +71,12 @@ $border-radius: 12px;
     background-color: $primary-color;
 
     &:hover {
-      background-color: color.adjust($primary-color, $lightness: -8%);
+      background-color: adjust.color($primary-color, $lightness: -8%);
       transform: translateY(-1px);
     }
 
     &:active {
-      background-color: color.adjust($primary-color, $lightness: -15%);
+      background-color: adjust.color($primary-color, $lightness: -15%);
       transform: translateY(0);
     }
   }
